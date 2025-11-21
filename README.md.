@@ -1,4 +1,4 @@
-# 🔍 Instagram Fake Account Detection
+#  Instagram Fake Account Detection
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Classification-green.svg)
@@ -6,7 +6,7 @@
 
 A comprehensive machine learning project for detecting fake Instagram accounts using behavioral patterns and profile characteristics. This project demonstrates end-to-end data science workflow including EDA, feature engineering, model training, and evaluation.
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Project Overview](#-project-overview)
 - [Business Problem](#-business-problem)
 - [Dataset](#-dataset)
@@ -19,18 +19,18 @@ A comprehensive machine learning project for detecting fake Instagram accounts u
 - [Future Improvements](#-future-improvements)
 - [Contact](#-contact)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project builds a machine learning system to automatically identify fake Instagram accounts based on profile features and behavioral patterns. The system achieves high accuracy in distinguishing between legitimate and fake accounts, providing valuable insights for social media platform security.
 
 ### Key Highlights
-- ✅ **Multiple ML Models**: Logistic Regression, Random Forest, Gradient Boosting, XGBoost
-- ✅ **Feature Engineering**: Created 5+ new features from raw data
-- ✅ **Comprehensive EDA**: Deep analysis of fake vs real account patterns
-- ✅ **High Performance**: F1-Score > 0.85, ROC-AUC > 0.90
-- ✅ **Production-Ready**: Scalable and deployable solution
+-  **Multiple ML Models**: Logistic Regression, Random Forest, Gradient Boosting, XGBoost
+-  **Feature Engineering**: Created 5+ new features from raw data
+-  **Comprehensive EDA**: Deep analysis of fake vs real account patterns
+-  **High Performance**: F1-Score > 0.85, ROC-AUC > 0.90
+-  **Production-Ready**: Scalable and deployable solution
 
-## 💼 Business Problem
+##  Business Problem
 
 ### Context
 Fake accounts on social media platforms create significant challenges:
@@ -52,7 +52,7 @@ Develop an automated ML system that can:
 - **Recall**: > 85% (catch most fake accounts)
 - **F1-Score**: > 85% (balance precision & recall)
 
-## 📊 Dataset
+##  Dataset
 
 ### Source
 Real Instagram account data with behavioral and profile features
@@ -84,7 +84,7 @@ Real Instagram account data with behavioral and profile features
 - **Real Accounts**: 500 (50%)
 - **Class Balance**: Perfectly balanced dataset
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Data Exploration & Analysis
 - Comprehensive univariate and bivariate analysis
@@ -124,7 +124,7 @@ Trained and compared 4 different models:
 - Feature Importance Analysis
 - Cross-validation for reliability
 
-## 🎯 Key Findings
+##  Key Findings
 
 ### Critical Behavioral Patterns
 
@@ -195,7 +195,7 @@ All models performed excellently, with tree-based models (Random Forest, XGBoost
 - **Jupyter Notebook**: Interactive development
 - **Git**: Version control
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 ```bash
@@ -265,7 +265,7 @@ print(f"Prediction: {'Fake' if prediction[0] == 1 else 'Real'}")
 print(f"Confidence: {probability[0][prediction[0]]:.2%}")
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 instagram-fake-detection/
@@ -288,7 +288,7 @@ instagram-fake-detection/
     └── model_performance_report.pdf
 ```
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 ### 1. Data Enhancement
 - [ ] Add temporal features (account age, activity timeline)
@@ -318,7 +318,7 @@ instagram-fake-detection/
 - [ ] Implement progressive verification system
 - [ ] Add automated response actions
 
-## 📊 Results Visualization
+##  Results Visualization
 
 ### Sample Outputs
 
@@ -331,7 +331,7 @@ Clear visualization of model performance showing high accuracy in both detecting
 #### ROC Curve
 All models achieve ROC-AUC > 0.90, demonstrating excellent discriminative ability.
 
-## 💡 Key Takeaways
+##  Key Takeaways
 
 1. **Machine Learning Works**: Achieved >85% accuracy in detecting fake accounts
 2. **Behavioral Patterns Matter**: Fake accounts show distinct patterns in engagement
@@ -339,7 +339,7 @@ All models achieve ROC-AUC > 0.90, demonstrating excellent discriminative abilit
 4. **Balance is Critical**: Need to minimize both false positives and false negatives
 5. **Continuous Monitoring**: Fake account tactics evolve; model needs updates
 
-## 📝 Lessons Learned
+##  Lessons Learned
 
 - **Feature Engineering**: Creating ratio and composite features significantly improved performance
 - **Model Selection**: Tree-based models performed best for this classification task
@@ -347,35 +347,33 @@ All models achieve ROC-AUC > 0.90, demonstrating excellent discriminative abilit
 - **Interpretability**: Feature importance analysis provides actionable insights for platform security
 - **False Positives**: Must be carefully minimized to avoid impacting legitimate users
 
-## 🎓 Skills Demonstrated
+##  Skills Demonstrated
 
-- ✅ Data Analysis & Visualization
-- ✅ Feature Engineering
-- ✅ Machine Learning Classification
-- ✅ Model Evaluation & Comparison
-- ✅ Business Problem Solving
-- ✅ Statistical Analysis
-- ✅ Python Programming
-- ✅ Documentation & Communication
+-  Data Analysis & Visualization
+-  Feature Engineering
+-  Machine Learning Classification
+-  Model Evaluation & Comparison
+-  Business Problem Solving
+-  Statistical Analysis
+-  Python Programming
+-  Documentation & Communication
 
-## 📄 License
+##  License
 
 This project is created for educational and portfolio purposes.
 
-## 🤝 Contributing
+##  Contributing
 
 This is a portfolio project, but suggestions and feedback are welcome! Feel free to:
 - Open an issue for bugs or suggestions
 - Fork the repository and submit pull requests
 - Contact me for collaboration opportunities
 
-## 📧 Contact
+## Contact
 
-**[Your Name]**
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🐱 GitHub: [Your GitHub Profile]
-- 🌐 Portfolio: [Your Portfolio Website]
+**[Kaila]**
+- 📧 Email: Kailahidayatussakina@gmail.com
+
 
 ---
 
